@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: teal;
+  color: teal;
+  transition: background-color ease-in 1s;
+}
+body #quote-box {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 2rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+}
+body #quote-box .quote-author {
+  text-align: right;
+}
+body #newQuote {
+  background-color: teal;
+  border: 0;
+}
+
+/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
